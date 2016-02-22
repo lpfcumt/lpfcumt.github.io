@@ -1,0 +1,36 @@
+﻿body {
+	margin:0;
+	padding:0;
+	background-color:#620462;
+}
+.content {
+	width:35%;
+	margin-top:7%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	position:relative;
+}
+.content h1 {
+	color:#34EFCA;
+	font-size:35px;
+	font-family: 'Oswald', sans-serif;
+}
+.content p {
+	font-size:20px;
+	color:white;
+	font-family: 'Lobster', cursive;
+	line-height:25px;
+}
+.b{
+	padding:10px;
+	width:66%;
+	background-color:#620462;
+	border:2px solid white;
+	color:white;
+	margin-top:7%;
+	text-align:center;
+	outline:none;
+	font-size:20px;
+	border-radius:26px;
+	font-family: 'Oswald', sans-serif;

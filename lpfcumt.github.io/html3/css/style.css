@@ -1,0 +1,74 @@
+* {
+    padding:0;
+    margin:0;
+    outline:0;
+}
+.cl {
+    font-size:0;
+    line-height:0;
+    height:0;
+    display:block;
+    clear:both;
+}
+body{
+    background:#1c1c1c ;
+    font-family:tahoma, sans-serif;
+    color:#fff;
+    font-size:11px;
+    line-height:14px;
+}
+a{ color:#fff; text-decoration: none; }
+a:hover{ color:#ffd800; text-decoration:none }
+a img{
+    border:0;
+}
+.shell{width:1006px; margin:0 auto;}
+
+h1#logo{
+	font-size: 28px;
+	font-family: tahoma, sans-serif;
+	color:#fff;
+	line-height: 29px;
+	font-weight: normal;
+	padding-top:31px;
+}
+h2.slogan{color:#8e7f2c; font-size: 12px; font-weight: normal; line-height: 16px;}
+
+.left-part{float: left; display: inline; padding-left:28px}
+
+#nav{float: right; display: inline; padding-right:25px; padding-top:42px}
+#nav ul{list-style-type: none; text-transform: uppercase;}
+#nav li{float: left; display: inline; padding-left:23px}
+#nav li a{float: left; display: inline; color:#fff}
+#nav li a:hover{ color:#ffd800}
+#nav li a.active{color:#ffd800}
+
+.color-scheme{width:120px; margin:0 auto; padding-top:22px}
+.color-scheme ul{list-style-type: none;}
+.color-scheme li{float: left; display: inline; border:solid 1px #87792c; width:12px; height:12px; padding:1px; margin-right:4px}
+.color-scheme li.current{border:solid 1px #fff}
+.color-scheme li.black a{background:#000}
+.color-scheme li.dark-grey a{background:#1c1c1c}
+.color-scheme li.grey a{background:#585858}
+.color-scheme li.light-grey a{background:#8e8e8e}
+.color-scheme li.lighter-grey a{background:#c8c8c8}
+.color-scheme li.white a{background:#fff}
+.color-scheme li a{float: left; display: inline; width:12px; height:12px;}
+
+#content{}
+#frame{background:url(images/shadow.png) no-repeat; width:977px; height:549px; margin:0 auto; padding:14px 0 0 20px ;}
+#frame ul{list-style-type: none; width:977px; height:534px}
+#frame li{float: left; display: inline; width:479px !important; position:relative; z-index: 1; height:534px}
+#frame li a.l-arr{float: left; background:url(images/l-arr.png) no-repeat; width:47px; height:47px; position:absolute; left:-24px; top:240px; cursor:pointer}
+#frame li a.r-arr{float: left; background:url(images/r-arr.png) no-repeat; width:47px; height:47px; position:absolute; right:-24px; top:240px; cursor:pointer}
+#frame li a.zoom{float: left; background:url(images/zoom.gif) no-repeat; color:#fff; position:absolute; right:10px; bottom:61px; padding-left:24px; line-height:17px; text-decoration: underline;}
+#frame li a:hover.zoom{text-decoration: none;}
+#frame li .bottom{height:52px; width:479px; background:url(images/transparent.png); position:absolute; bottom:0; left:0; z-index: 10; font-family: "lucida sans", sans-serif;}
+#frame li .bottom span.number{font-size: 32px; line-height: 52px; padding-left:17px; float: left; padding-right:20px}
+#frame li .bottom h5{font-size: 12px; line-height: 15px;color:#fff; font-weight: normal; padding-top:10px; padding-bottom:2px}
+#frame li .bottom span.info{font-size: 11px; line-height: 15px; color:#87792c}
+
+#footer{color:#595959; font-size: 10px; line-height: 16px; text-align: center; padding-top:30px}
+#footer p{padding-bottom:5px}
+#footer a{text-decoration: underline; color:#595959;}
+#footer a:hover{text-decoration: none;}
